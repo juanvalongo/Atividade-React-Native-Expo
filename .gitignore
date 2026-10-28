@@ -1,0 +1,51 @@
+# Dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Projetos nativos gerados pelo Expo
+/ios
+/android
+
+# Kotlin
+.kotlin/
+
+# Certificados e chaves
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Arquivos originais e temporários
+*.orig.*
+
+# Metro
+.metro-health-check*
+
+# Logs e depuração
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# macOS
+.DS_Store
+
+# Variáveis de ambiente locais
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Configurações locais do Claude
+.claude/
+
+
